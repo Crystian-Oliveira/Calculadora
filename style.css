@@ -1,0 +1,69 @@
+body{
+    background: rgb(78, 72, 72);
+    overflow: hidden;
+ 
+}
+
+
+.body-cal {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+
+
+}
+.borda{
+    border: 100px;
+    border: 4px solid rgb(2, 2, 2) ;
+    border-radius: 15px;
+}
+
+
+.calculator{
+ justify-content: center;
+ align-items: flex-start;
+ padding: 6px;
+ box-shadow:  5px 5px 30px rgb(7, 7, 7);
+
+ 
+}
+
+input {
+    margin-top: 5px ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+input[type=text]{
+
+    background: rgba(0, 0, 0, 0.589);
+    height: 85px;
+    width: 320px;
+    font-size: 50px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    
+}
+
+button {
+    width: 80px;
+    height: 70px;
+    vertical-align: top;
+    margin: 1px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.double-size-btn{
+    width: 160px;
+    height: 70px; 
+    align-items: top;
+}
+
+.igual-btn{
+    height: 140px;
+    width: 80px;
+ 
+}
