@@ -11,6 +11,8 @@ btns.forEach(btn => {
              resultField.value = 0
           } else if (num == ",") {
             resultField.value += "."
+        } else if (num == "%") {
+            resultField.value = (eval(resultField.value) / 1);
           } else if (num == "=") {
             resultField.value = eval(resultField.value);
          } else {
